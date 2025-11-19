@@ -48,11 +48,7 @@ model = load_model("checkpoints/latest.pth")
 print(predict(model, "examples/flower.jpg"))  # prints predicted label
 ```
 
-## Example
-A minimal example that prints the project title:
-```python
-print("Flower Classification")
-```
+
 
 ## Project structure
 - train.py         — training script
